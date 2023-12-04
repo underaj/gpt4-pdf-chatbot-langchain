@@ -1,3 +1,4 @@
+import "web-streams-polyfill/es6";
 import { ChatOpenAI } from 'langchain/chat_models/openai';
 import { ChatPromptTemplate } from 'langchain/prompts';
 import { RunnableSequence } from 'langchain/schema/runnable';
